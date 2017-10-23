@@ -57,7 +57,6 @@ export default {
   }),
   mounted () {
     setTimeout(function () {
-      console.log('Scroll:', this.$refs.scroller)
       this.$refs.scroller.scrollToItem(500)
     }.bind(this, 1000))
   }
